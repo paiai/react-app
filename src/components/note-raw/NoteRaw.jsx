@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./note-raw.scss";
 
 class NoteRaw extends Component {
   static defaultProps = {

@@ -9,5 +9,7 @@ In the project directory, you can run:
 http://localhost:3000
 
 $ npm install node-sass
+
 $ npm install styled-components
+
 \$ npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome

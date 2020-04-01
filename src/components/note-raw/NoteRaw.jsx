@@ -4,6 +4,7 @@ import "./note-raw.scss";
 class NoteRaw extends Component {
   static defaultProps = {
     subject: "노트 생성",
+    msg: "생성",
     title: "",
     contents: "",
     id: "",
@@ -37,7 +38,7 @@ class NoteRaw extends Component {
       <>
         <div id="note-what-for">
           <span>{this.props.subject}</span>
-          <span onClick={this.props.close}>Close</span>
+          <button onClick={this.props.close}>Close</button>
         </div>
         <div id="note-form">
           <input
@@ -59,7 +60,7 @@ class NoteRaw extends Component {
           />
         </div>
         <div>
-          <button onClick={this.handleSubmit}>작성하기</button>
+          <button onClick={this.handleSubmit}>{this.props.msg}</button>
         </div>
       </>
     );

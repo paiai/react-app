@@ -2,15 +2,13 @@ import React, { Component } from "react";
 import "./App.css";
 import styled from "styled-components";
 import NoteApp from "./components/NoteApp";
-// function App() {
-//   return <div className="App"></div>;
-// }
 
 const ContainerDiv = styled.div`
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial;
 `;
 
 const AppDiv = styled.div`

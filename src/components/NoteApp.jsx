@@ -11,7 +11,7 @@ const SearchBarDiv = styled.div`
   padding: 0.5rem;
 
   div > span {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #ffcc99;
   }
@@ -107,6 +107,7 @@ class NoteApp extends Component {
             <NoteRaw
               action={this.createNote}
               close={this.toggleModal}
+              msg={"생성"}
               subject={"Create Note"}
             ></NoteRaw>
           </Modal>

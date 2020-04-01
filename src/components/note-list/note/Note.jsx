@@ -64,6 +64,7 @@ class Note extends Component {
               action={this.props.editNote}
               close={this.handleEditModal}
               subject={"Edit Note"}
+              msg={"수정"}
               title={note.title}
               contents={note.contents}
             />
